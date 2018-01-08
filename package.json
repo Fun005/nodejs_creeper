@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_creeper",
+  "version": "1.0.0",
+  "description": "nodejs practise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fun005/nodejs_creeper.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "tangc1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fun005/nodejs_creeper/issues"
+  },
+  "homepage": "https://github.com/Fun005/nodejs_creeper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.83.0"
+  }
+}
