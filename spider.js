@@ -52,8 +52,8 @@ function startRequest(x) {
             //下一篇文章的URL
             var nextLink = "http://www.ss.pku.edu.cn" + $("li.next a").attr('href');
 
-            str1 = nextLink.split('-'); //去掉URL后面的中文
-            str = encodeURI(str1[0]);
+            var str1 = nextLink.split('-'); //去掉URL后面的中文
+            var str = encodeURI(str1[0]);
             //通过控制i，可以控制爬取多少篇文章
             if(i<=500) {
                 fetchPage(str);
